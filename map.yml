@@ -1,0 +1,5 @@
+map_name: MEWWW
+games:
+- {game_name: MEWWW, file_name: mewww.xml}
+- {game_name: MEWWW-Alliances, file_name: mewww2.xml}
+version: 1

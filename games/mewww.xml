@@ -1,0 +1,1741 @@
+﻿<?xml version="1.0" ?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+    <info name="mewww" version="1.0"/>
+    <loader javaClass="games.strategy.triplea.TripleA"/>
+    <triplea minimumVersion="1.6"/>
+    <map>
+        <!-- Territory Definitions -->
+        <territory name="adn" water="true"/>
+        <territory name="aeg" water="true"/>
+        <territory name="alh"/>
+        <territory name="alt"/>
+        <territory name="ank"/>
+        <territory name="ara"/>
+        <territory name="arm"/>
+        <territory name="bay" water="true"/>
+        <territory name="bel"/>
+        <territory name="ben"/>
+        <territory name="bla" water="true"/>
+        <territory name="bng"/>
+        <territory name="bom"/>
+        <territory name="bul"/>
+        <territory name="cai"/>
+        <territory name="cas" water="true"/>
+        <territory name="chi"/>
+        <territory name="dec"/>
+        <territory name="del"/>
+        <territory name="egy"/>
+        <territory name="est"/>
+        <territory name="eth"/>
+        <territory name="geo"/>
+        <territory name="ger"/>
+        <territory name="gre"/>
+        <territory name="gul" water="true"/>
+        <territory name="hor" water="true"/>
+        <territory name="ind" water="true"/>
+        <territory name="ira"/>
+        <territory name="irq"/>
+        <territory name="ist"/>
+        <territory name="jor"/>
+        <territory name="jud"/>
+        <territory name="kas"/>
+        <territory name="kaz"/>
+        <territory name="kry"/>
+        <territory name="kur"/>
+        <territory name="lat"/>
+        <territory name="lib"/>
+        <territory name="mec"/>
+        <territory name="med" water="true"/>
+        <territory name="mon"/>
+        <territory name="mos"/>
+        <territory name="mys"/>
+        <territory name="oma"/>
+        <territory name="pak"/>
+        <territory name="pek"/>
+        <territory name="pol"/>
+        <territory name="red" water="true"/>
+        <territory name="rma"/>
+        <territory name="sau"/>
+        <territory name="ser"/>
+        <territory name="shi"/>
+        <territory name="sib"/>
+        <territory name="som"/>
+        <territory name="sud"/>
+        <territory name="sue"/>
+        <territory name="syr"/>
+        <territory name="tib"/>
+        <territory name="uae"/>
+        <territory name="ukr"/>
+        <territory name="uzb"/>
+        <territory name="vol"/>
+        <territory name="yem"/>
+
+        <!-- Territory Connections -->
+        <connection t1="adn" t2="gul"/>
+        <connection t1="adn" t2="hor"/>
+        <connection t1="adn" t2="ind"/>
+        <connection t1="adn" t2="oma"/>
+        <connection t1="adn" t2="red"/>
+        <connection t1="adn" t2="som"/>
+        <connection t1="adn" t2="yem"/>
+        <connection t1="aeg" t2="bla"/>
+        <connection t1="aeg" t2="bng"/>
+        <connection t1="aeg" t2="gre"/>
+        <connection t1="aeg" t2="med"/>
+        <connection t1="alh" t2="ara"/>
+        <connection t1="alh" t2="hor"/>
+        <connection t1="alh" t2="jor"/>
+        <connection t1="alh" t2="oma"/>
+        <connection t1="alh" t2="sau"/>
+        <connection t1="alh" t2="uae"/>
+        <connection t1="alt" t2="kaz"/>
+        <connection t1="alt" t2="kry"/>
+        <connection t1="alt" t2="mon"/>
+        <connection t1="alt" t2="mos"/>
+        <connection t1="alt" t2="pek"/>
+        <connection t1="alt" t2="sib"/>
+        <connection t1="ank" t2="bla"/>
+        <connection t1="ank" t2="irq"/>
+        <connection t1="ank" t2="ist"/>
+        <connection t1="ank" t2="kur"/>
+        <connection t1="ank" t2="syr"/>
+        <connection t1="ara" t2="irq"/>
+        <connection t1="ara" t2="jor"/>
+        <connection t1="ara" t2="syr"/>
+        <connection t1="arm" t2="cas"/>
+        <connection t1="arm" t2="geo"/>
+        <connection t1="arm" t2="ira"/>
+        <connection t1="arm" t2="kur"/>
+        <connection t1="arm" t2="vol"/>
+        <connection t1="bay" t2="ben"/>
+        <connection t1="bay" t2="chi"/>
+        <connection t1="bay" t2="dec"/>
+        <connection t1="bay" t2="ind"/>
+        <connection t1="bay" t2="mys"/>
+        <connection t1="bel" t2="est"/>
+        <connection t1="bel" t2="lat"/>
+        <connection t1="bel" t2="mos"/>
+        <connection t1="bel" t2="pol"/>
+        <connection t1="bel" t2="ukr"/>
+        <connection t1="ben" t2="chi"/>
+        <connection t1="ben" t2="dec"/>
+        <connection t1="ben" t2="del"/>
+        <connection t1="bla" t2="bul"/>
+        <connection t1="bla" t2="geo"/>
+        <connection t1="bla" t2="ist"/>
+        <connection t1="bla" t2="kur"/>
+        <connection t1="bla" t2="med"/>
+        <connection t1="bla" t2="rma"/>
+        <connection t1="bla" t2="ukr"/>
+        <connection t1="bla" t2="vol"/>
+        <connection t1="bng" t2="cai"/>
+        <connection t1="bng" t2="lib"/>
+        <connection t1="bng" t2="med"/>
+        <connection t1="bom" t2="dec"/>
+        <connection t1="bom" t2="del"/>
+        <connection t1="bom" t2="gul"/>
+        <connection t1="bom" t2="kas"/>
+        <connection t1="bul" t2="gre"/>
+        <connection t1="bul" t2="ist"/>
+        <connection t1="bul" t2="rma"/>
+        <connection t1="cai" t2="egy"/>
+        <connection t1="cai" t2="lib"/>
+        <connection t1="cai" t2="med"/>
+        <connection t1="cai" t2="red"/>
+        <connection t1="cai" t2="sue"/>
+        <connection t1="cas" t2="ira"/>
+        <connection t1="cas" t2="kaz"/>
+        <connection t1="cas" t2="uzb"/>
+        <connection t1="cas" t2="vol"/>
+        <connection t1="chi" t2="del"/>
+        <connection t1="chi" t2="kry"/>
+        <connection t1="chi" t2="pek"/>
+        <connection t1="chi" t2="tib"/>
+        <connection t1="dec" t2="gul"/>
+        <connection t1="dec" t2="mys"/>
+        <connection t1="del" t2="kas"/>
+        <connection t1="del" t2="tib"/>
+        <connection t1="egy" t2="lib"/>
+        <connection t1="egy" t2="red"/>
+        <connection t1="egy" t2="sud"/>
+        <connection t1="est" t2="lat"/>
+        <connection t1="est" t2="mos"/>
+        <connection t1="est" t2="sib"/>
+        <connection t1="eth" t2="som"/>
+        <connection t1="eth" t2="sud"/>
+        <connection t1="geo" t2="kur"/>
+        <connection t1="ger" t2="pol"/>
+        <connection t1="ger" t2="rma"/>
+        <connection t1="ger" t2="ser"/>
+        <connection t1="gre" t2="med"/>
+        <connection t1="gre" t2="rma"/>
+        <connection t1="gre" t2="ser"/>
+        <connection t1="gul" t2="hor"/>
+        <connection t1="gul" t2="ind"/>
+        <connection t1="gul" t2="kas"/>
+        <connection t1="gul" t2="mys"/>
+        <connection t1="hor" t2="irq"/>
+        <connection t1="hor" t2="oma"/>
+        <connection t1="hor" t2="shi"/>
+        <connection t1="hor" t2="uae"/>
+        <connection t1="ind" t2="mys"/>
+        <connection t1="ira" t2="kur"/>
+        <connection t1="ira" t2="pak"/>
+        <connection t1="ira" t2="shi"/>
+        <connection t1="ira" t2="tib"/>
+        <connection t1="ira" t2="uzb"/>
+        <connection t1="irq" t2="kur"/>
+        <connection t1="irq" t2="shi"/>
+        <connection t1="irq" t2="syr"/>
+        <connection t1="ist" t2="med"/>
+        <connection t1="ist" t2="syr"/>
+        <connection t1="jor" t2="jud"/>
+        <connection t1="jor" t2="mec"/>
+        <connection t1="jor" t2="sau"/>
+        <connection t1="jor" t2="syr"/>
+        <connection t1="jud" t2="mec"/>
+        <connection t1="jud" t2="med"/>
+        <connection t1="jud" t2="red"/>
+        <connection t1="jud" t2="sue"/>
+        <connection t1="jud" t2="syr"/>
+        <connection t1="kas" t2="pak"/>
+        <connection t1="kas" t2="tib"/>
+        <connection t1="kaz" t2="kry"/>
+        <connection t1="kaz" t2="mos"/>
+        <connection t1="kaz" t2="uzb"/>
+        <connection t1="kry" t2="pek"/>
+        <connection t1="kry" t2="tib"/>
+        <connection t1="kry" t2="uzb"/>
+        <connection t1="lat" t2="pol"/>
+        <connection t1="mec" t2="red"/>
+        <connection t1="mec" t2="sau"/>
+        <connection t1="mec" t2="yem"/>
+        <connection t1="med" t2="red"/>
+        <connection t1="med" t2="sue"/>
+        <connection t1="med" t2="syr"/>
+        <connection t1="mon" t2="pek"/>
+        <connection t1="mon" t2="sib"/>
+        <connection t1="mos" t2="sib"/>
+        <connection t1="mos" t2="ukr"/>
+        <connection t1="mos" t2="vol"/>
+        <connection t1="oma" t2="sau"/>
+        <connection t1="oma" t2="uae"/>
+        <connection t1="oma" t2="yem"/>
+        <connection t1="pak" t2="shi"/>
+        <connection t1="pak" t2="tib"/>
+        <connection t1="pol" t2="rma"/>
+        <connection t1="pol" t2="ukr"/>
+        <connection t1="red" t2="som"/>
+        <connection t1="red" t2="sud"/>
+        <connection t1="red" t2="sue"/>
+        <connection t1="red" t2="yem"/>
+        <connection t1="rma" t2="ser"/>
+        <connection t1="rma" t2="ukr"/>
+        <connection t1="sau" t2="yem"/>
+        <connection t1="tib" t2="uzb"/>
+        <connection t1="ukr" t2="vol"/>
+        <connection t1="kaz" t2="vol"/>
+        <connection t1="geo" t2="vol"/>
+        <connection t1="ira" t2="irq"/>
+        <connection t1="sue" t2="mec"/>
+        <connection t1="irq" t2="alh"/>
+        <connection t1="jor" t2="sue"/>
+        <connection t1="sud" t2="som"/>
+    </map>
+
+    <resourceList>
+        <resource name="PUs"/>
+    </resourceList>
+
+    <playerList>
+        <!-- In Turn Order -->
+        <player name="US" optional="false"/>
+        <player name="Turkey" optional="false"/>
+        <player name="saudi" optional="false"/>
+        <player name="Iran" optional="false"/>
+        <player name="russia" optional="false"/>
+        <player name="egypt" optional="false"/>
+        <player name="germany" optional="false"/>
+        <player name="India" optional="false"/>
+        <player name="China" optional="false"/>
+        <player name="ser" optional="false"/>
+        
+    </playerList>
+
+    <unitList>
+        <unit name="aagun"/>
+        <unit name="armour"/>
+        <unit name="artillery"/>
+        <unit name="bomber"/>
+        <unit name="carrier"/>
+        <unit name="cruiser"/>
+        <unit name="factory"/>
+        <unit name="fighter"/>
+        <unit name="halftrac"/>
+        <unit name="infantry"/>
+        <unit name="submarine"/>
+        <unit name="transport"/>
+    </unitList>
+
+    <gamePlay>
+        <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+        <delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
+        <delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
+        <delegate name="tech" javaClass="games.strategy.triplea.delegate.TechnologyDelegate" display="Research Technology"/>
+        <delegate name="tech_activation" javaClass="games.strategy.triplea.delegate.TechActivationDelegate" display="Activate Technology"/>
+        <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
+        <delegate name="purchaseNoPU" javaClass="games.strategy.triplea.delegate.NoPUPurchaseDelegate" display="Purchase Units"/>
+        <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+        <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+        <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
+        <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+        <delegate name="endTurnNoPU" javaClass="games.strategy.triplea.delegate.NoPUEndTurnDelegate" display="Turn Complete"/>
+        <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+
+        <sequence>
+            <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
+
+            <!-- Bidding Phase -->
+            <step name="ChinaBidPlace" delegate="placeBid" player="China" maxRunCount="1"/>
+            <step name="IndiaBidPlace" delegate="placeBid" player="India" maxRunCount="1"/>
+            <step name="IranBidPlace" delegate="placeBid" player="Iran" maxRunCount="1"/>
+            <step name="TurkeyBidPlace" delegate="placeBid" player="Turkey" maxRunCount="1"/>
+            <step name="USBidPlace" delegate="placeBid" player="US" maxRunCount="1"/>
+            <step name="egyptBidPlace" delegate="placeBid" player="egypt" maxRunCount="1"/>
+            <step name="germanyBidPlace" delegate="placeBid" player="germany" maxRunCount="1"/>
+            <step name="russiaBidPlace" delegate="placeBid" player="russia" maxRunCount="1"/>
+            <step name="saudiBidPlace" delegate="placeBid" player="saudi" maxRunCount="1"/>
+            <step name="serBidPlace" delegate="placeBid" player="ser" maxRunCount="1"/>
+
+            <!-- US Game Sequence -->
+            <step name="USTech" delegate="tech" player="US"/>
+            <step name="USPurchase" delegate="purchase" player="US"/>
+            <step name="USCombatMove" delegate="move" player="US"/>
+            <step name="USBattle" delegate="battle" player="US"/>
+            <step name="USNonCombatMove" delegate="move" player="US" display="Non Combat Move"/>
+            <step name="USPlace" delegate="place" player="US"/>
+            <step name="USTechActivation" delegate="tech_activation" player="US"/>
+            <step name="USEndTurn" delegate="endTurn" player="US"/>
+
+            <!-- Turkey Game Sequence -->
+            <step name="TurkeyTech" delegate="tech" player="Turkey"/>
+            <step name="TurkeyPurchase" delegate="purchase" player="Turkey"/>
+            <step name="TurkeyCombatMove" delegate="move" player="Turkey"/>
+            <step name="TurkeyBattle" delegate="battle" player="Turkey"/>
+            <step name="TurkeyNonCombatMove" delegate="move" player="Turkey" display="Non Combat Move"/>
+            <step name="TurkeyPlace" delegate="place" player="Turkey"/>
+            <step name="TurkeyTechActivation" delegate="tech_activation" player="Turkey"/>
+            <step name="TurkeyEndTurn" delegate="endTurn" player="Turkey"/>
+
+            <!-- saudi Game Sequence -->
+            <step name="saudiTech" delegate="tech" player="saudi"/>
+            <step name="saudiPurchase" delegate="purchase" player="saudi"/>
+            <step name="saudiCombatMove" delegate="move" player="saudi"/>
+            <step name="saudiBattle" delegate="battle" player="saudi"/>
+            <step name="saudiNonCombatMove" delegate="move" player="saudi" display="Non Combat Move"/>
+            <step name="saudiPlace" delegate="place" player="saudi"/>
+            <step name="saudiTechActivation" delegate="tech_activation" player="saudi"/>
+            <step name="saudiEndTurn" delegate="endTurn" player="saudi"/>
+
+            <!-- Iran Game Sequence -->
+            <step name="IranTech" delegate="tech" player="Iran"/>
+            <step name="IranPurchase" delegate="purchase" player="Iran"/>
+            <step name="IranCombatMove" delegate="move" player="Iran"/>
+            <step name="IranBattle" delegate="battle" player="Iran"/>
+            <step name="IranNonCombatMove" delegate="move" player="Iran" display="Non Combat Move"/>
+            <step name="IranPlace" delegate="place" player="Iran"/>
+            <step name="IranTechActivation" delegate="tech_activation" player="Iran"/>
+            <step name="IranEndTurn" delegate="endTurn" player="Iran"/>
+
+            <!-- russia Game Sequence -->
+            <step name="russiaTech" delegate="tech" player="russia"/>
+            <step name="russiaPurchase" delegate="purchase" player="russia"/>
+            <step name="russiaCombatMove" delegate="move" player="russia"/>
+            <step name="russiaBattle" delegate="battle" player="russia"/>
+            <step name="russiaNonCombatMove" delegate="move" player="russia" display="Non Combat Move"/>
+            <step name="russiaPlace" delegate="place" player="russia"/>
+            <step name="russiaTechActivation" delegate="tech_activation" player="russia"/>
+            <step name="russiaEndTurn" delegate="endTurn" player="russia"/>
+
+            <!-- egypt Game Sequence -->
+            <step name="egyptTech" delegate="tech" player="egypt"/>
+            <step name="egyptPurchase" delegate="purchase" player="egypt"/>
+            <step name="egyptCombatMove" delegate="move" player="egypt"/>
+            <step name="egyptBattle" delegate="battle" player="egypt"/>
+            <step name="egyptNonCombatMove" delegate="move" player="egypt" display="Non Combat Move"/>
+            <step name="egyptPlace" delegate="place" player="egypt"/>
+            <step name="egyptTechActivation" delegate="tech_activation" player="egypt"/>
+            <step name="egyptEndTurn" delegate="endTurn" player="egypt"/>
+
+            <!-- germany Game Sequence -->
+            <step name="germanyTech" delegate="tech" player="germany"/>
+            <step name="germanyPurchase" delegate="purchase" player="germany"/>
+            <step name="germanyCombatMove" delegate="move" player="germany"/>
+            <step name="germanyBattle" delegate="battle" player="germany"/>
+            <step name="germanyNonCombatMove" delegate="move" player="germany" display="Non Combat Move"/>
+            <step name="germanyPlace" delegate="place" player="germany"/>
+            <step name="germanyTechActivation" delegate="tech_activation" player="germany"/>
+            <step name="germanyEndTurn" delegate="endTurn" player="germany"/>
+
+            <!-- India Game Sequence -->
+            <step name="IndiaTech" delegate="tech" player="India"/>
+            <step name="IndiaPurchase" delegate="purchase" player="India"/>
+            <step name="IndiaCombatMove" delegate="move" player="India"/>
+            <step name="IndiaBattle" delegate="battle" player="India"/>
+            <step name="IndiaNonCombatMove" delegate="move" player="India" display="Non Combat Move"/>
+            <step name="IndiaPlace" delegate="place" player="India"/>
+            <step name="IndiaTechActivation" delegate="tech_activation" player="India"/>
+            <step name="IndiaEndTurn" delegate="endTurn" player="India"/>
+
+            <!-- China Game Sequence -->
+            <step name="ChinaTech" delegate="tech" player="China"/>
+            <step name="ChinaPurchase" delegate="purchase" player="China"/>
+            <step name="ChinaCombatMove" delegate="move" player="China"/>
+            <step name="ChinaBattle" delegate="battle" player="China"/>
+            <step name="ChinaNonCombatMove" delegate="move" player="China" display="Non Combat Move"/>
+            <step name="ChinaPlace" delegate="place" player="China"/>
+            <step name="ChinaTechActivation" delegate="tech_activation" player="China"/>
+            <step name="ChinaEndTurn" delegate="endTurn" player="China"/>
+
+            <!-- ser Game Sequence -->
+            <step name="serTech" delegate="tech" player="ser"/>
+            <step name="serPurchase" delegate="purchase" player="ser"/>
+            <step name="serCombatMove" delegate="move" player="ser"/>
+            <step name="serBattle" delegate="battle" player="ser"/>
+            <step name="serNonCombatMove" delegate="move" player="ser" display="Non Combat Move"/>
+            <step name="serPlace" delegate="place" player="ser"/>
+            <step name="serTechActivation" delegate="tech_activation" player="ser"/>
+            <step name="serEndTurn" delegate="endTurn" player="ser"/>
+
+            <step name="endRoundStep" delegate="endRound"/>
+        </sequence>
+    </gamePlay>
+
+    <production>
+        <productionRule name="buyaagun_China">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="aagun" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyaagun_India">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="aagun" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyaagun_Iran">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="aagun" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyaagun_Turkey">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="aagun" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyaagun_US">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="aagun" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyaagun_egypt">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="aagun" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyaagun_germany">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="aagun" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyaagun_russia">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="aagun" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyaagun_saudi">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="aagun" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyaagun_ser">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="aagun" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyarmour_China">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="armour" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyarmour_India">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="armour" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyarmour_Iran">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="armour" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyarmour_Turkey">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="armour" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyarmour_US">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="armour" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyarmour_egypt">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="armour" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyarmour_germany">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="armour" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyarmour_russia">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="armour" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyarmour_saudi">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="armour" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyarmour_ser">
+            <cost resource="PUs" quantity="7" />
+            <result resourceOrUnit="armour" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyartillery_China">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="artillery" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyartillery_India">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="artillery" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyartillery_Iran">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="artillery" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyartillery_Turkey">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="artillery" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyartillery_US">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="artillery" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyartillery_egypt">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="artillery" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyartillery_germany">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="artillery" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyartillery_russia">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="artillery" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyartillery_saudi">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="artillery" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyartillery_ser">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="artillery" quantity="1"/>
+        </productionRule>
+        <productionRule name="buybomber_China">
+            <cost resource="PUs" quantity="16" />
+            <result resourceOrUnit="bomber" quantity="1"/>
+        </productionRule>
+        <productionRule name="buybomber_India">
+            <cost resource="PUs" quantity="17" />
+            <result resourceOrUnit="bomber" quantity="1"/>
+        </productionRule>
+        <productionRule name="buybomber_Iran">
+            <cost resource="PUs" quantity="14" />
+            <result resourceOrUnit="bomber" quantity="1"/>
+        </productionRule>
+        <productionRule name="buybomber_Turkey">
+            <cost resource="PUs" quantity="17" />
+            <result resourceOrUnit="bomber" quantity="1"/>
+        </productionRule>
+        <productionRule name="buybomber_US">
+            <cost resource="PUs" quantity="16" />
+            <result resourceOrUnit="bomber" quantity="1"/>
+        </productionRule>
+        <productionRule name="buybomber_egypt">
+            <cost resource="PUs" quantity="14" />
+            <result resourceOrUnit="bomber" quantity="1"/>
+        </productionRule>
+        <productionRule name="buybomber_germany">
+            <cost resource="PUs" quantity="16" />
+            <result resourceOrUnit="bomber" quantity="1"/>
+        </productionRule>
+        <productionRule name="buybomber_russia">
+            <cost resource="PUs" quantity="16" />
+            <result resourceOrUnit="bomber" quantity="1"/>
+        </productionRule>
+        <productionRule name="buybomber_saudi">
+            <cost resource="PUs" quantity="16" />
+            <result resourceOrUnit="bomber" quantity="1"/>
+        </productionRule>
+        <productionRule name="buybomber_ser">
+            <cost resource="PUs" quantity="20" />
+            <result resourceOrUnit="bomber" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycarrier_China">
+            <cost resource="PUs" quantity="18" />
+            <result resourceOrUnit="carrier" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycarrier_India">
+            <cost resource="PUs" quantity="18" />
+            <result resourceOrUnit="carrier" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycarrier_Iran">
+            <cost resource="PUs" quantity="19" />
+            <result resourceOrUnit="carrier" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycarrier_Turkey">
+            <cost resource="PUs" quantity="19" />
+            <result resourceOrUnit="carrier" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycarrier_US">
+            <cost resource="PUs" quantity="14" />
+            <result resourceOrUnit="carrier" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycarrier_egypt">
+            <cost resource="PUs" quantity="18" />
+            <result resourceOrUnit="carrier" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycarrier_germany">
+            <cost resource="PUs" quantity="15" />
+            <result resourceOrUnit="carrier" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycarrier_russia">
+            <cost resource="PUs" quantity="15" />
+            <result resourceOrUnit="carrier" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycarrier_saudi">
+            <cost resource="PUs" quantity="19" />
+            <result resourceOrUnit="carrier" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycarrier_ser">
+            <cost resource="PUs" quantity="21" />
+            <result resourceOrUnit="carrier" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycruiser_China">
+            <cost resource="PUs" quantity="14" />
+            <result resourceOrUnit="cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycruiser_India">
+            <cost resource="PUs" quantity="17" />
+            <result resourceOrUnit="cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycruiser_Iran">
+            <cost resource="PUs" quantity="13" />
+            <result resourceOrUnit="cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycruiser_Turkey">
+            <cost resource="PUs" quantity="13" />
+            <result resourceOrUnit="cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycruiser_US">
+            <cost resource="PUs" quantity="13" />
+            <result resourceOrUnit="cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycruiser_egypt">
+            <cost resource="PUs" quantity="12" />
+            <result resourceOrUnit="cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycruiser_germany">
+            <cost resource="PUs" quantity="15" />
+            <result resourceOrUnit="cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycruiser_russia">
+            <cost resource="PUs" quantity="13" />
+            <result resourceOrUnit="cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycruiser_saudi">
+            <cost resource="PUs" quantity="13" />
+            <result resourceOrUnit="cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycruiser_ser">
+            <cost resource="PUs" quantity="20" />
+            <result resourceOrUnit="cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfactory_China">
+            <cost resource="PUs" quantity="15" />
+            <result resourceOrUnit="factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfactory_India">
+            <cost resource="PUs" quantity="16" />
+            <result resourceOrUnit="factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfactory_Iran">
+            <cost resource="PUs" quantity="16" />
+            <result resourceOrUnit="factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfactory_Turkey">
+            <cost resource="PUs" quantity="16" />
+            <result resourceOrUnit="factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfactory_US">
+            <cost resource="PUs" quantity="14" />
+            <result resourceOrUnit="factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfactory_egypt">
+            <cost resource="PUs" quantity="15" />
+            <result resourceOrUnit="factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfactory_germany">
+            <cost resource="PUs" quantity="14" />
+            <result resourceOrUnit="factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfactory_russia">
+            <cost resource="PUs" quantity="15" />
+            <result resourceOrUnit="factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfactory_saudi">
+            <cost resource="PUs" quantity="15" />
+            <result resourceOrUnit="factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfactory_ser">
+            <cost resource="PUs" quantity="20" />
+            <result resourceOrUnit="factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfighter_China">
+            <cost resource="PUs" quantity="12" />
+            <result resourceOrUnit="fighter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfighter_India">
+            <cost resource="PUs" quantity="12" />
+            <result resourceOrUnit="fighter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfighter_Iran">
+            <cost resource="PUs" quantity="13" />
+            <result resourceOrUnit="fighter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfighter_Turkey">
+            <cost resource="PUs" quantity="13" />
+            <result resourceOrUnit="fighter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfighter_US">
+            <cost resource="PUs" quantity="13" />
+            <result resourceOrUnit="fighter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfighter_egypt">
+            <cost resource="PUs" quantity="13" />
+            <result resourceOrUnit="fighter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfighter_germany">
+            <cost resource="PUs" quantity="12" />
+            <result resourceOrUnit="fighter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfighter_russia">
+            <cost resource="PUs" quantity="12" />
+            <result resourceOrUnit="fighter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfighter_saudi">
+            <cost resource="PUs" quantity="12" />
+            <result resourceOrUnit="fighter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfighter_ser">
+            <cost resource="PUs" quantity="22" />
+            <result resourceOrUnit="fighter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyhalftrac_China">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="halftrac" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyhalftrac_India">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="halftrac" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyhalftrac_Iran">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="halftrac" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyhalftrac_Turkey">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="halftrac" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyhalftrac_US">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="halftrac" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyhalftrac_egypt">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="halftrac" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyhalftrac_germany">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="halftrac" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyhalftrac_russia">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="halftrac" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyhalftrac_saudi">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="halftrac" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyhalftrac_ser">
+            <cost resource="PUs" quantity="9" />
+            <result resourceOrUnit="halftrac" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyinfantry_China">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="infantry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyinfantry_India">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="infantry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyinfantry_Iran">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="infantry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyinfantry_Turkey">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="infantry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyinfantry_US">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="infantry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyinfantry_egypt">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="infantry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyinfantry_germany">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="infantry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyinfantry_russia">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="infantry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyinfantry_saudi">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="infantry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyinfantry_ser">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="infantry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buysubmarine_China">
+            <cost resource="PUs" quantity="10" />
+            <result resourceOrUnit="submarine" quantity="1"/>
+        </productionRule>
+        <productionRule name="buysubmarine_India">
+            <cost resource="PUs" quantity="15" />
+            <result resourceOrUnit="submarine" quantity="1"/>
+        </productionRule>
+        <productionRule name="buysubmarine_Iran">
+            <cost resource="PUs" quantity="11" />
+            <result resourceOrUnit="submarine" quantity="1"/>
+        </productionRule>
+        <productionRule name="buysubmarine_Turkey">
+            <cost resource="PUs" quantity="14" />
+            <result resourceOrUnit="submarine" quantity="1"/>
+        </productionRule>
+        <productionRule name="buysubmarine_US">
+            <cost resource="PUs" quantity="10" />
+            <result resourceOrUnit="submarine" quantity="1"/>
+        </productionRule>
+        <productionRule name="buysubmarine_egypt">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="submarine" quantity="1"/>
+        </productionRule>
+        <productionRule name="buysubmarine_germany">
+            <cost resource="PUs" quantity="10" />
+            <result resourceOrUnit="submarine" quantity="1"/>
+        </productionRule>
+        <productionRule name="buysubmarine_russia">
+            <cost resource="PUs" quantity="11" />
+            <result resourceOrUnit="submarine" quantity="1"/>
+        </productionRule>
+        <productionRule name="buysubmarine_saudi">
+            <cost resource="PUs" quantity="13" />
+            <result resourceOrUnit="submarine" quantity="1"/>
+        </productionRule>
+        <productionRule name="buysubmarine_ser">
+            <cost resource="PUs" quantity="15" />
+            <result resourceOrUnit="submarine" quantity="1"/>
+        </productionRule>
+        <productionRule name="buytransport_China">
+            <cost resource="PUs" quantity="7" />
+            <result resourceOrUnit="transport" quantity="1"/>
+        </productionRule>
+        <productionRule name="buytransport_India">
+            <cost resource="PUs" quantity="7" />
+            <result resourceOrUnit="transport" quantity="1"/>
+        </productionRule>
+        <productionRule name="buytransport_Iran">
+            <cost resource="PUs" quantity="7" />
+            <result resourceOrUnit="transport" quantity="1"/>
+        </productionRule>
+        <productionRule name="buytransport_Turkey">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="transport" quantity="1"/>
+        </productionRule>
+        <productionRule name="buytransport_US">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="transport" quantity="1"/>
+        </productionRule>
+        <productionRule name="buytransport_egypt">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="transport" quantity="1"/>
+        </productionRule>
+        <productionRule name="buytransport_germany">
+            <cost resource="PUs" quantity="9" />
+            <result resourceOrUnit="transport" quantity="1"/>
+        </productionRule>
+        <productionRule name="buytransport_russia">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="transport" quantity="1"/>
+        </productionRule>
+        <productionRule name="buytransport_saudi">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="transport" quantity="1"/>
+        </productionRule>
+        <productionRule name="buytransport_ser">
+            <cost resource="PUs" quantity="12" />
+            <result resourceOrUnit="transport" quantity="1"/>
+        </productionRule>
+
+        <!-- Production Frontiers -->
+
+        <productionFrontier name="production_China">
+            <frontierRules name="buyaagun_China"/>
+            <frontierRules name="buyarmour_China"/>
+            <frontierRules name="buyartillery_China"/>
+            <frontierRules name="buybomber_China"/>
+            <frontierRules name="buycarrier_China"/>
+            <frontierRules name="buycruiser_China"/>
+            <frontierRules name="buyfactory_China"/>
+            <frontierRules name="buyfighter_China"/>
+            <frontierRules name="buyhalftrac_China"/>
+            <frontierRules name="buyinfantry_China"/>
+            <frontierRules name="buysubmarine_China"/>
+            <frontierRules name="buytransport_China"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_India">
+            <frontierRules name="buyaagun_India"/>
+            <frontierRules name="buyarmour_India"/>
+            <frontierRules name="buyartillery_India"/>
+            <frontierRules name="buybomber_India"/>
+            <frontierRules name="buycarrier_India"/>
+            <frontierRules name="buycruiser_India"/>
+            <frontierRules name="buyfactory_India"/>
+            <frontierRules name="buyfighter_India"/>
+            <frontierRules name="buyhalftrac_India"/>
+            <frontierRules name="buyinfantry_India"/>
+            <frontierRules name="buysubmarine_India"/>
+            <frontierRules name="buytransport_India"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_Iran">
+            <frontierRules name="buyaagun_Iran"/>
+            <frontierRules name="buyarmour_Iran"/>
+            <frontierRules name="buyartillery_Iran"/>
+            <frontierRules name="buybomber_Iran"/>
+            <frontierRules name="buycarrier_Iran"/>
+            <frontierRules name="buycruiser_Iran"/>
+            <frontierRules name="buyfactory_Iran"/>
+            <frontierRules name="buyfighter_Iran"/>
+            <frontierRules name="buyhalftrac_Iran"/>
+            <frontierRules name="buyinfantry_Iran"/>
+            <frontierRules name="buysubmarine_Iran"/>
+            <frontierRules name="buytransport_Iran"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_Turkey">
+            <frontierRules name="buyaagun_Turkey"/>
+            <frontierRules name="buyarmour_Turkey"/>
+            <frontierRules name="buyartillery_Turkey"/>
+            <frontierRules name="buybomber_Turkey"/>
+            <frontierRules name="buycarrier_Turkey"/>
+            <frontierRules name="buycruiser_Turkey"/>
+            <frontierRules name="buyfactory_Turkey"/>
+            <frontierRules name="buyfighter_Turkey"/>
+            <frontierRules name="buyhalftrac_Turkey"/>
+            <frontierRules name="buyinfantry_Turkey"/>
+            <frontierRules name="buysubmarine_Turkey"/>
+            <frontierRules name="buytransport_Turkey"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_US">
+            <frontierRules name="buyaagun_US"/>
+            <frontierRules name="buyarmour_US"/>
+            <frontierRules name="buyartillery_US"/>
+            <frontierRules name="buybomber_US"/>
+            <frontierRules name="buycarrier_US"/>
+            <frontierRules name="buycruiser_US"/>
+            <frontierRules name="buyfactory_US"/>
+            <frontierRules name="buyfighter_US"/>
+            <frontierRules name="buyhalftrac_US"/>
+            <frontierRules name="buyinfantry_US"/>
+            <frontierRules name="buysubmarine_US"/>
+            <frontierRules name="buytransport_US"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_egypt">
+            <frontierRules name="buyaagun_egypt"/>
+            <frontierRules name="buyarmour_egypt"/>
+            <frontierRules name="buyartillery_egypt"/>
+            <frontierRules name="buybomber_egypt"/>
+            <frontierRules name="buycarrier_egypt"/>
+            <frontierRules name="buycruiser_egypt"/>
+            <frontierRules name="buyfactory_egypt"/>
+            <frontierRules name="buyfighter_egypt"/>
+            <frontierRules name="buyhalftrac_egypt"/>
+            <frontierRules name="buyinfantry_egypt"/>
+            <frontierRules name="buysubmarine_egypt"/>
+            <frontierRules name="buytransport_egypt"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_germany">
+            <frontierRules name="buyaagun_germany"/>
+            <frontierRules name="buyarmour_germany"/>
+            <frontierRules name="buyartillery_germany"/>
+            <frontierRules name="buybomber_germany"/>
+            <frontierRules name="buycarrier_germany"/>
+            <frontierRules name="buycruiser_germany"/>
+            <frontierRules name="buyfactory_germany"/>
+            <frontierRules name="buyfighter_germany"/>
+            <frontierRules name="buyhalftrac_germany"/>
+            <frontierRules name="buyinfantry_germany"/>
+            <frontierRules name="buysubmarine_germany"/>
+            <frontierRules name="buytransport_germany"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_russia">
+            <frontierRules name="buyaagun_russia"/>
+            <frontierRules name="buyarmour_russia"/>
+            <frontierRules name="buyartillery_russia"/>
+            <frontierRules name="buybomber_russia"/>
+            <frontierRules name="buycarrier_russia"/>
+            <frontierRules name="buycruiser_russia"/>
+            <frontierRules name="buyfactory_russia"/>
+            <frontierRules name="buyfighter_russia"/>
+            <frontierRules name="buyhalftrac_russia"/>
+            <frontierRules name="buyinfantry_russia"/>
+            <frontierRules name="buysubmarine_russia"/>
+            <frontierRules name="buytransport_russia"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_saudi">
+            <frontierRules name="buyaagun_saudi"/>
+            <frontierRules name="buyarmour_saudi"/>
+            <frontierRules name="buyartillery_saudi"/>
+            <frontierRules name="buybomber_saudi"/>
+            <frontierRules name="buycarrier_saudi"/>
+            <frontierRules name="buycruiser_saudi"/>
+            <frontierRules name="buyfactory_saudi"/>
+            <frontierRules name="buyfighter_saudi"/>
+            <frontierRules name="buyhalftrac_saudi"/>
+            <frontierRules name="buyinfantry_saudi"/>
+            <frontierRules name="buysubmarine_saudi"/>
+            <frontierRules name="buytransport_saudi"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_ser">
+            <frontierRules name="buyaagun_ser"/>
+            <frontierRules name="buyarmour_ser"/>
+            <frontierRules name="buyartillery_ser"/>
+            <frontierRules name="buybomber_ser"/>
+            <frontierRules name="buycarrier_ser"/>
+            <frontierRules name="buycruiser_ser"/>
+            <frontierRules name="buyfactory_ser"/>
+            <frontierRules name="buyfighter_ser"/>
+            <frontierRules name="buyhalftrac_ser"/>
+            <frontierRules name="buyinfantry_ser"/>
+            <frontierRules name="buysubmarine_ser"/>
+            <frontierRules name="buytransport_ser"/>
+        </productionFrontier>
+
+        <!-- Production Frontier Assignments -->
+        <playerProduction player="China" frontier="production_China"/>
+        <playerProduction player="India" frontier="production_India"/>
+        <playerProduction player="Iran" frontier="production_Iran"/>
+        <playerProduction player="Turkey" frontier="production_Turkey"/>
+        <playerProduction player="US" frontier="production_US"/>
+        <playerProduction player="egypt" frontier="production_egypt"/>
+        <playerProduction player="germany" frontier="production_germany"/>
+        <playerProduction player="russia" frontier="production_russia"/>
+        <playerProduction player="saudi" frontier="production_saudi"/>
+        <playerProduction player="ser" frontier="production_ser"/>
+    </production>
+
+    <attachmentList>
+        <!-- Unit Attachments -->
+
+        <attachment name="unitAttachment" attachTo="aagun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="defense" value="1"/>
+            <option name="isAA" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="armour" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="canBlitz" value="true"/>
+            <option name="defense" value="3"/>
+            <option name="movement" value="2"/>
+            <option name="transportCost" value="2"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="2"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="bomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="4"/>
+            <option name="defense" value="2"/>
+            <option name="isAir" value="true"/>
+            <option name="isStrategicBomber" value="true"/>
+            <option name="movement" value="6"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="carrierCapacity" value="2"/>
+            <option name="defense" value="2"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="canBombard" value="true"/>
+            <option name="defense" value="3"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="factory" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="defense" value="1"/>
+            <option name="isFactory" value="true"/>
+            <option name="movement" value="0"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="fighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="4"/>
+            <option name="isAir" value="true"/>
+            <option name="movement" value="4"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="halftrac" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="canBlitz" value="true"/>
+            <option name="defense" value="2"/>
+            <option name="movement" value="2"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="submarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="defense" value="2"/>
+            <option name="isSea" value="true"/>
+            <option name="isSub" value="true"/>
+            <option name="movement" value="2"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="defense" value="1"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="2"/>
+        </attachment>
+
+        <!-- Territory Data -->
+        <attachment name="territoryAttachment" attachTo="alh" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="6"/>
+            <option name="capital" value="saudi"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="alt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="ank" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="6"/>
+            <option name="capital" value="Turkey"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="ara" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="arm" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="bel" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="ben" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="bng" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="bom" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="bul" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="cai" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="capital" value="egypt"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="chi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="dec" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="del" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="6"/>
+            <option name="capital" value="India"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="egy" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="est" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="eth" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="geo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="ger" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="6"/>
+            <option name="capital" value="germany"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="gre" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="ira" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="6"/>
+            <option name="capital" value="Iran"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="irq" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="ist" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="jor" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="jud" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="10"/>
+            <option name="victoryCity" value="1"/>
+            <option name="capital" value="US"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="kas" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="kaz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="kry" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="kur" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="lat" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="lib" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="mec" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="mon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="mos" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="6"/>
+            <option name="capital" value="russia"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="mys" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="oma" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="pak" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="pek" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="6"/>
+            <option name="capital" value="China"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="pol" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="rma" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="sau" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="ser" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="capital" value="ser"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="shi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="sib" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="som" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="sud" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="sue" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="syr" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="tib" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="uae" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="ukr" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="uzb" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="vol" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="yem" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+    </attachmentList>
+
+    <initialize>
+        <ownerInitialize>
+            <!-- China Owned Territories -->
+            <territoryOwner territory="chi" owner="China"/>
+            <territoryOwner territory="mon" owner="China"/>
+            <territoryOwner territory="pek" owner="China"/>
+            <territoryOwner territory="tib" owner="China"/>
+            <!-- India Owned Territories -->
+            <territoryOwner territory="ben" owner="India"/>
+            <territoryOwner territory="bom" owner="India"/>
+            <territoryOwner territory="dec" owner="India"/>
+            <territoryOwner territory="del" owner="India"/>
+            <territoryOwner territory="kas" owner="India"/>
+            <territoryOwner territory="mys" owner="India"/>
+            <!-- Iran Owned Territories -->
+            <territoryOwner territory="ira" owner="Iran"/>
+            <territoryOwner territory="irq" owner="Iran"/>
+            <territoryOwner territory="pak" owner="Iran"/>
+            <territoryOwner territory="shi" owner="Iran"/>
+            <territoryOwner territory="som" owner="Iran"/>
+            <territoryOwner territory="syr" owner="Iran"/>
+            <territoryOwner territory="yem" owner="Iran"/>
+            <!-- Turkey Owned Territories -->
+            <territoryOwner territory="ank" owner="Turkey"/>
+            <territoryOwner territory="ist" owner="Turkey"/>
+            <territoryOwner territory="kur" owner="Turkey"/>
+            <!-- US Owned Territories -->
+            <territoryOwner territory="geo" owner="US"/>
+            <territoryOwner territory="jor" owner="US"/>
+            <territoryOwner territory="jud" owner="US"/>
+            <!-- egypt Owned Territories -->
+            <territoryOwner territory="bng" owner="egypt"/>
+            <territoryOwner territory="cai" owner="egypt"/>
+            <territoryOwner territory="egy" owner="egypt"/>
+            <territoryOwner territory="eth" owner="egypt"/>
+            <territoryOwner territory="lib" owner="egypt"/>
+            <territoryOwner territory="sud" owner="egypt"/>
+            <territoryOwner territory="sue" owner="egypt"/>
+            <!-- germany Owned Territories -->
+            <territoryOwner territory="bul" owner="germany"/>
+            <territoryOwner territory="ger" owner="germany"/>
+            <territoryOwner territory="gre" owner="germany"/>
+            <territoryOwner territory="lat" owner="germany"/>
+            <territoryOwner territory="pol" owner="germany"/>
+            <territoryOwner territory="rma" owner="germany"/>
+            <territoryOwner territory="ukr" owner="germany"/>
+            <!-- russia Owned Territories -->
+            <territoryOwner territory="alt" owner="russia"/>
+            <territoryOwner territory="arm" owner="russia"/>
+            <territoryOwner territory="bel" owner="russia"/>
+            <territoryOwner territory="est" owner="russia"/>
+            <territoryOwner territory="kaz" owner="russia"/>
+            <territoryOwner territory="kry" owner="russia"/>
+            <territoryOwner territory="mos" owner="russia"/>
+            <territoryOwner territory="sib" owner="russia"/>
+            <territoryOwner territory="uzb" owner="russia"/>
+            <territoryOwner territory="vol" owner="russia"/>
+            <!-- saudi Owned Territories -->
+            <territoryOwner territory="alh" owner="saudi"/>
+            <territoryOwner territory="ara" owner="saudi"/>
+            <territoryOwner territory="mec" owner="saudi"/>
+            <territoryOwner territory="oma" owner="saudi"/>
+            <territoryOwner territory="sau" owner="saudi"/>
+            <territoryOwner territory="uae" owner="saudi"/>
+            <!-- ser Owned Territories -->
+            <territoryOwner territory="ser" owner="ser"/>
+        </ownerInitialize>
+
+        <unitInitialize>
+
+            <!-- China Unit Placements -->
+            <unitPlacement unitType="cruiser" territory="bay" quantity="2" owner="China"/>
+            <unitPlacement unitType="transport" territory="bay" quantity="2" owner="China"/>
+            <unitPlacement unitType="factory" territory="chi" quantity="1" owner="China"/>
+            <unitPlacement unitType="infantry" territory="chi" quantity="1" owner="China"/>
+            <unitPlacement unitType="fighter" territory="chi" quantity="1" owner="China"/>
+            <unitPlacement unitType="infantry" territory="mon" quantity="1" owner="China"/>
+            <unitPlacement unitType="halftrac" territory="mon" quantity="1" owner="China"/>
+            <unitPlacement unitType="artillery" territory="mon" quantity="1" owner="China"/>
+            <unitPlacement unitType="factory" territory="pek" quantity="1" owner="China"/>
+            <unitPlacement unitType="infantry" territory="pek" quantity="1" owner="China"/>
+            <unitPlacement unitType="bomber" territory="pek" quantity="1" owner="China"/>
+            <unitPlacement unitType="armour" territory="pek" quantity="1" owner="China"/>
+            <unitPlacement unitType="infantry" territory="tib" quantity="1" owner="China"/>
+
+            <!-- India Unit Placements -->
+            <unitPlacement unitType="infantry" territory="ben" quantity="1" owner="India"/>
+            <unitPlacement unitType="artillery" territory="ben" quantity="1" owner="India"/>
+            <unitPlacement unitType="infantry" territory="bom" quantity="1" owner="India"/>
+            <unitPlacement unitType="halftrac" territory="dec" quantity="1" owner="India"/>
+            <unitPlacement unitType="factory" territory="del" quantity="1" owner="India"/>
+            <unitPlacement unitType="infantry" territory="del" quantity="1" owner="India"/>
+            <unitPlacement unitType="armour" territory="del" quantity="1" owner="India"/>
+            <unitPlacement unitType="aagun" territory="del" quantity="1" owner="India"/>
+            <unitPlacement unitType="bomber" territory="del" quantity="1" owner="India"/>
+            <unitPlacement unitType="transport" territory="ind" quantity="1" owner="India"/>
+            <unitPlacement unitType="cruiser" territory="ind" quantity="2" owner="India"/>
+            <unitPlacement unitType="infantry" territory="kas" quantity="2" owner="India"/>
+            <unitPlacement unitType="infantry" territory="mys" quantity="1" owner="India"/>
+
+            <!-- Iran Unit Placements -->
+            <unitPlacement unitType="transport" territory="hor" quantity="4" owner="Iran"/>
+            <unitPlacement unitType="infantry" territory="ira" quantity="1" owner="Iran"/>
+            <unitPlacement unitType="artillery" territory="ira" quantity="1" owner="Iran"/>
+            <unitPlacement unitType="halftrac" territory="ira" quantity="1" owner="Iran"/>
+            <unitPlacement unitType="factory" territory="ira" quantity="1" owner="Iran"/>
+            <unitPlacement unitType="artillery" territory="irq" quantity="1" owner="Iran"/>
+            <unitPlacement unitType="halftrac" territory="irq" quantity="1" owner="Iran"/>
+            <unitPlacement unitType="infantry" territory="pak" quantity="1" owner="Iran"/>
+            <unitPlacement unitType="armour" territory="pak" quantity="1" owner="Iran"/>
+            <unitPlacement unitType="infantry" territory="shi" quantity="1" owner="Iran"/>
+            <unitPlacement unitType="aagun" territory="shi" quantity="1" owner="Iran"/>
+            <unitPlacement unitType="infantry" territory="som" quantity="1" owner="Iran"/>
+            <unitPlacement unitType="fighter" territory="syr" quantity="1" owner="Iran"/>
+            <unitPlacement unitType="infantry" territory="syr" quantity="1" owner="Iran"/>
+            <unitPlacement unitType="infantry" territory="yem" quantity="1" owner="Iran"/>
+
+            <!-- Turkey Unit Placements -->
+            <unitPlacement unitType="transport" territory="bla" quantity="3" owner="Turkey"/>
+            <unitPlacement unitType="cruiser" territory="bla" quantity="1" owner="Turkey"/>
+            <unitPlacement unitType="aagun" territory="ank" quantity="1" owner="Turkey"/>
+            <unitPlacement unitType="halftrac" territory="ank" quantity="2" owner="Turkey"/>
+            <unitPlacement unitType="fighter" territory="ank" quantity="1" owner="Turkey"/>
+            <unitPlacement unitType="factory" territory="ank" quantity="1" owner="Turkey"/>
+            <unitPlacement unitType="armour" territory="ist" quantity="1" owner="Turkey"/>
+            <unitPlacement unitType="infantry" territory="ist" quantity="1" owner="Turkey"/>
+            <unitPlacement unitType="artillery" territory="kur" quantity="1" owner="Turkey"/>
+            <unitPlacement unitType="infantry" territory="kur" quantity="1" owner="Turkey"/>
+
+            <!-- US Unit Placements -->
+            <unitPlacement unitType="fighter" territory="med" quantity="2" owner="US"/>
+            <unitPlacement unitType="carrier" territory="med" quantity="2" owner="US"/>
+            <unitPlacement unitType="infantry" territory="geo" quantity="1" owner="US"/>
+            <unitPlacement unitType="infantry" territory="jud" quantity="1" owner="US"/>
+            <unitPlacement unitType="factory" territory="jud" quantity="1" owner="US"/>
+            <unitPlacement unitType="aagun" territory="jud" quantity="1" owner="US"/>
+            <unitPlacement unitType="bomber" territory="jud" quantity="1" owner="US"/>
+            <unitPlacement unitType="armour" territory="jud" quantity="2" owner="US"/>
+            <unitPlacement unitType="fighter" territory="jud" quantity="1" owner="US"/>
+
+            <!-- egypt Unit Placements -->
+            <unitPlacement unitType="transport" territory="red" quantity="2" owner="egypt"/>
+            <unitPlacement unitType="cruiser" territory="red" quantity="2" owner="egypt"/>
+            <unitPlacement unitType="halftrac" territory="bng" quantity="1" owner="egypt"/>
+            <unitPlacement unitType="fighter" territory="cai" quantity="1" owner="egypt"/>
+            <unitPlacement unitType="armour" territory="cai" quantity="1" owner="egypt"/>
+            <unitPlacement unitType="factory" territory="cai" quantity="1" owner="egypt"/>
+            <unitPlacement unitType="aagun" territory="cai" quantity="1" owner="egypt"/>
+            <unitPlacement unitType="infantry" territory="cai" quantity="1" owner="egypt"/>
+            <unitPlacement unitType="infantry" territory="egy" quantity="1" owner="egypt"/>
+            <unitPlacement unitType="infantry" territory="eth" quantity="1" owner="egypt"/>
+            <unitPlacement unitType="artillery" territory="lib" quantity="1" owner="egypt"/>
+            <unitPlacement unitType="halftrac" territory="sud" quantity="1" owner="egypt"/>
+            <unitPlacement unitType="infantry" territory="sue" quantity="1" owner="egypt"/>
+
+            <!-- germany Unit Placements -->
+            <unitPlacement unitType="submarine" territory="aeg" quantity="2" owner="germany"/>
+            <unitPlacement unitType="cruiser" territory="aeg" quantity="2" owner="germany"/>
+            <unitPlacement unitType="halftrac" territory="bul" quantity="1" owner="germany"/>
+            <unitPlacement unitType="factory" territory="ger" quantity="1" owner="germany"/>
+            <unitPlacement unitType="bomber" territory="ger" quantity="1" owner="germany"/>
+            <unitPlacement unitType="aagun" territory="ger" quantity="1" owner="germany"/>
+            <unitPlacement unitType="armour" territory="ger" quantity="1" owner="germany"/>
+            <unitPlacement unitType="artillery" territory="gre" quantity="1" owner="germany"/>
+            <unitPlacement unitType="infantry" territory="lat" quantity="1" owner="germany"/>
+            <unitPlacement unitType="infantry" territory="pol" quantity="1" owner="germany"/>
+            <unitPlacement unitType="factory" territory="rma" quantity="1" owner="germany"/>
+            <unitPlacement unitType="artillery" territory="rma" quantity="1" owner="germany"/>
+            <unitPlacement unitType="infantry" territory="rma" quantity="1" owner="germany"/>
+            <unitPlacement unitType="fighter" territory="rma" quantity="1" owner="germany"/>
+            <unitPlacement unitType="infantry" territory="ukr" quantity="1" owner="germany"/>
+            <unitPlacement unitType="halftrac" territory="ukr" quantity="1" owner="germany"/>
+
+            <!-- russia Unit Placements -->
+            <unitPlacement unitType="transport" territory="cas" quantity="2" owner="russia"/>
+            <unitPlacement unitType="cruiser" territory="cas" quantity="2" owner="russia"/>
+            <unitPlacement unitType="infantry" territory="alt" quantity="1" owner="russia"/>
+            <unitPlacement unitType="infantry" territory="arm" quantity="1" owner="russia"/>
+            <unitPlacement unitType="halftrac" territory="bel" quantity="1" owner="russia"/>
+            <unitPlacement unitType="infantry" territory="est" quantity="1" owner="russia"/>
+            <unitPlacement unitType="factory" territory="kaz" quantity="1" owner="russia"/>
+            <unitPlacement unitType="artillery" territory="kaz" quantity="1" owner="russia"/>
+            <unitPlacement unitType="infantry" territory="kry" quantity="1" owner="russia"/>
+            <unitPlacement unitType="fighter" territory="mos" quantity="1" owner="russia"/>
+            <unitPlacement unitType="bomber" territory="mos" quantity="1" owner="russia"/>
+            <unitPlacement unitType="infantry" territory="mos" quantity="1" owner="russia"/>
+            <unitPlacement unitType="factory" territory="mos" quantity="1" owner="russia"/>
+            <unitPlacement unitType="armour" territory="mos" quantity="1" owner="russia"/>
+            <unitPlacement unitType="aagun" territory="mos" quantity="1" owner="russia"/>
+            <unitPlacement unitType="infantry" territory="sib" quantity="1" owner="russia"/>
+            <unitPlacement unitType="infantry" territory="uzb" quantity="1" owner="russia"/>
+            <unitPlacement unitType="halftrac" territory="uzb" quantity="1" owner="russia"/>
+            <unitPlacement unitType="infantry" territory="vol" quantity="1" owner="russia"/>
+
+            <!-- saudi Unit Placements -->
+            <unitPlacement unitType="cruiser" territory="adn" quantity="2" owner="saudi"/>
+            <unitPlacement unitType="aagun" territory="alh" quantity="1" owner="saudi"/>
+            <unitPlacement unitType="infantry" territory="alh" quantity="2" owner="saudi"/>
+            <unitPlacement unitType="fighter" territory="alh" quantity="1" owner="saudi"/>
+            <unitPlacement unitType="armour" territory="alh" quantity="1" owner="saudi"/>
+            <unitPlacement unitType="factory" territory="alh" quantity="1" owner="saudi"/>
+            <unitPlacement unitType="artillery" territory="ara" quantity="1" owner="saudi"/>
+            <unitPlacement unitType="infantry" territory="ara" quantity="1" owner="saudi"/>
+            <unitPlacement unitType="infantry" territory="mec" quantity="1" owner="saudi"/>
+            <unitPlacement unitType="halftrac" territory="oma" quantity="1" owner="saudi"/>
+            <unitPlacement unitType="infantry" territory="sau" quantity="1" owner="saudi"/>
+            <unitPlacement unitType="infantry" territory="uae" quantity="1" owner="saudi"/>
+
+            <!-- ser Unit Placements -->
+            <unitPlacement unitType="factory" territory="ser" quantity="1" owner="ser"/>
+            <unitPlacement unitType="aagun" territory="ser" quantity="1" owner="ser"/>
+            <unitPlacement unitType="halftrac" territory="ser" quantity="1" owner="ser"/>
+            <unitPlacement unitType="artillery" territory="ser" quantity="1" owner="ser"/>
+        </unitInitialize>
+
+        <resourceInitialize>
+            <resourceGiven player="China" resource="PUs" quantity="14"/>
+            <resourceGiven player="India" resource="PUs" quantity="12"/>
+            <resourceGiven player="Iran" resource="PUs" quantity="15"/>
+            <resourceGiven player="Turkey" resource="PUs" quantity="13"/>
+            <resourceGiven player="US" resource="PUs" quantity="15"/>
+            <resourceGiven player="egypt" resource="PUs" quantity="13"/>
+            <resourceGiven player="germany" resource="PUs" quantity="15"/>
+            <resourceGiven player="russia" resource="PUs" quantity="14"/>
+            <resourceGiven player="saudi" resource="PUs" quantity="13"/>
+            <resourceGiven player="ser" resource="PUs" quantity="3"/>
+        </resourceInitialize>
+    </initialize>
+
+    <propertyList>
+        <property name="China bid" value="14" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="India bid" value="12" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="Iran bid" value="11" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="Turkey bid" value="11" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="US bid" value="16" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="egypt bid" value="12" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="germany bid" value="15" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="russia bid" value="15" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="saudi bid" value="11" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="ser bid" value="3" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="AA50 Tech Model" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Air Attack Sub Restricted" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="All Rockets Attack" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Allied Air Dependents" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Anniversary Edition" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Anniversary Edition Air Naval" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Anniversary Edition Land Production" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Attacker Retreat Planes" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Blitz Through Factories And AA Restricted" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Continuous Research" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Defending Subs Sneak Attack" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Honorable Surrender" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="LHTR Carrier production rules" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Limit Rocket Damage Per Turn" value="true" editable="true">
+            <boolean/>
+        </property>
+        <property name="Limit SBR Damage Per Turn" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Limit SBR Damage To Factory Production" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Movement By Territory Restricted" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="National Objectives" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="No Economic Victory" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Occupied Territories" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Partial Amphibious Retreat" value="true" editable="true">
+            <boolean/>
+        </property>
+        <property name="Placement Restricted By Factory" value="true" editable="true">
+            <boolean/>
+        </property>
+        <property name="Production Per Valued Territory Restricted" value="true" editable="true">
+            <boolean/>
+        </property>
+        <property name="Production Per X Territories Restricted" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Projection of Power" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Random AA Casualties" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Rocket Attack Per Factory Restricted" value="true" editable="true">
+            <boolean/>
+        </property>
+        <property name="Roll AA Individually" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="SBR Affects Unit Production" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="SBR Victory Points" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Selectable Tech Roll" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Shore Bombard Per Ground Unit Restricted" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Sub Control Sea Zone Restricted" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Sub Retreat Before Battle" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Sub Retreat DD Restricted" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Surviving Air Move To Land" value="true" editable="true">
+            <boolean/>
+        </property>
+        <property name="Tech Development" value="true" editable="true">
+            <boolean/>
+        </property>
+        <property name="Territory Turn Limit" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Transport Casualties Restricted" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Transport Restricted Unload" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Unit Placement In Enemy Seas" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Unit Placement Per Territory Restricted" value="true" editable="true">
+            <boolean/>
+        </property>
+        <property name="Unplaced units live when not placed" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="maxFactoriesPerTerritory" value="1" editable="false">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="notes">
+            <value>Chaos rules, no one can trust another. Will a Divine being intervene or will might, planning and luck rule.
+            <![CDATA[]]>
+            </value>
+        </property>
+        <property name="mapName" value="mewww" editable="false"/>
+    </propertyList>
+</game>
